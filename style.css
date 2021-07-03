@@ -1,0 +1,25 @@
+/*
+Custom styles for forms
+1. Reset page
+2. Custom element styling
+*/
+
+/* 1. Reset page */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #000;
+
+}
+
+/* 2. Custom element styling */
+label {
+    text-transform: capitalize;
+}
