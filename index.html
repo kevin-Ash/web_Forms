@@ -11,11 +11,16 @@
     <script src="https://kit.fontawesome.com/d027480c9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <h3>entry /log-in form</h3>
-</header>
+
+<!-- Form 1 -->
+<section id="form_1">  
     <!-- Entry / log-in form-->
-    <form id="entry-form"class="forms" action="">
+    <form id="entry-form" action="">
+
+        <header>
+            <h3>entry /log-in form</h3>
+        </header>
+
         <!-- Username entry -->
         <div class="form-control">            
             <label for="username">username</label>
@@ -24,14 +29,16 @@
             <i class="fas fa-exclamation-circle"></i>
             <small>error message</small>        
         </div>
+
         <!-- E-mail entry-->
         <div class="form-control">            
-            <label for="username">username</label>
-            <input type="text" name="email"id="email" placeholder="enter your email">
+            <label for="email">email</label>
+            <input type="text" name="email" id="email" placeholder="enter your email">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>error message</small>        
         </div>
+
         <!-- Password entry -->
         <div class="form-control">            
             <label for="username">password</label>
@@ -40,12 +47,13 @@
             <i class="fas fa-exclamation-circle"></i>
             <small>error message</small>        
         </div>
-        
+
         <!-- Submit button -->
-        <div class="form-control">
             <button type="submit">log in</button>
-        </div>
     </form>
+
+</section>
+
 </body>
 </html>
 
