@@ -2,6 +2,7 @@
 Custom styles for forms
 1. Reset page
 2. Custom element styling
+3. FontAwesome customisation 
 */
 
 /* 1. Reset page */
@@ -12,14 +13,57 @@ Custom styles for forms
     box-sizing: border-box;
 }
 
+body {
+    background-color: #484a47;
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #fff;
+    
+    margin: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
 .form-control {
     margin: 1.5rem;
     padding: 1rem;
-    border: 1px solid #000;
-
 }
 
 /* 2. Custom element styling */
+h3 {
+    margin: 0.2rem 0 0.8rem 0;
+    text-transform: capitalize;
+}
+input {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    text-transform: capitalize;
+}
 label {
     text-transform: capitalize;
+}
+button {
+    padding: 0.5rem;
+    margin: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    color: #484a47;
+    font-weight: bold;
+    background-color: #a1ff0a;
+}
+/* 3. FontAwesome customisation */
+.fas {
+    font-size: 1.1rem;
+}
+.fa-check-circle {
+    color: #a1ff0a;
+}
+.fa-exclamation-circle {
+    color: #ff0000;
 }
